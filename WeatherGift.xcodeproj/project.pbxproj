@@ -12,6 +12,10 @@
 		CCA90E8D2714D4A0002A7903 /* APIkeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA90E8C2714D4A0002A7903 /* APIkeys.swift */; };
 		CCA90E8F27150F91002A7903 /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA90E8E27150F91002A7903 /* LocationDetailViewController.swift */; };
 		CCA90E9127153A6C002A7903 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA90E9027153A6C002A7903 /* PageViewController.swift */; };
+		CCAF02F7272651A10075A6BB /* DailyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAF02F6272651A10075A6BB /* DailyTableViewCell.swift */; };
+		CCAF02F927265FE80075A6BB /* HourlyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAF02F827265FE80075A6BB /* HourlyCollectionViewCell.swift */; };
+		CCAF02FB2727245F0075A6BB /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAF02FA2727245F0075A6BB /* UIViewController+alert.swift */; };
+		CCAF02FD272734EF0075A6BB /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAF02FC272734EF0075A6BB /* AboutViewController.swift */; };
 		CCB0391C2713CBBC00C827D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB0391B2713CBBC00C827D2 /* AppDelegate.swift */; };
 		CCB0391E2713CBBC00C827D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB0391D2713CBBC00C827D2 /* SceneDelegate.swift */; };
 		CCB039202713CBBC00C827D2 /* LocationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB0391F2713CBBC00C827D2 /* LocationListViewController.swift */; };
@@ -29,6 +33,10 @@
 		CCA90E8C2714D4A0002A7903 /* APIkeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIkeys.swift; sourceTree = "<group>"; };
 		CCA90E8E27150F91002A7903 /* LocationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
 		CCA90E9027153A6C002A7903 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		CCAF02F6272651A10075A6BB /* DailyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTableViewCell.swift; sourceTree = "<group>"; };
+		CCAF02F827265FE80075A6BB /* HourlyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyCollectionViewCell.swift; sourceTree = "<group>"; };
+		CCAF02FA2727245F0075A6BB /* UIViewController+alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
+		CCAF02FC272734EF0075A6BB /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		CCB039182713CBBC00C827D2 /* WeatherGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB0391B2713CBBC00C827D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCB0391D2713CBBC00C827D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,11 +100,15 @@
 			children = (
 				CCB0391B2713CBBC00C827D2 /* AppDelegate.swift */,
 				CCB0391D2713CBBC00C827D2 /* SceneDelegate.swift */,
-				CCB0391F2713CBBC00C827D2 /* LocationListViewController.swift */,
 				CCB0392F2713CCD300C827D2 /* WeatherLocation.swift */,
 				CC4002692715F3B900BEC692 /* WeatherDetail.swift */,
 				CCA90E9027153A6C002A7903 /* PageViewController.swift */,
 				CCA90E8E27150F91002A7903 /* LocationDetailViewController.swift */,
+				CCB0391F2713CBBC00C827D2 /* LocationListViewController.swift */,
+				CCAF02FC272734EF0075A6BB /* AboutViewController.swift */,
+				CCAF02F6272651A10075A6BB /* DailyTableViewCell.swift */,
+				CCAF02F827265FE80075A6BB /* HourlyCollectionViewCell.swift */,
+				CCAF02FA2727245F0075A6BB /* UIViewController+alert.swift */,
 				CCB039212713CBBC00C827D2 /* Main.storyboard */,
 				CCB039242713CBBE00C827D2 /* Assets.xcassets */,
 				CCB039262713CBBE00C827D2 /* LaunchScreen.storyboard */,
@@ -221,14 +233,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCAF02F7272651A10075A6BB /* DailyTableViewCell.swift in Sources */,
 				CCB039202713CBBC00C827D2 /* LocationListViewController.swift in Sources */,
 				CC40026A2715F3B900BEC692 /* WeatherDetail.swift in Sources */,
 				CCA90E9127153A6C002A7903 /* PageViewController.swift in Sources */,
 				CCB039302713CCD300C827D2 /* WeatherLocation.swift in Sources */,
 				CCA90E8D2714D4A0002A7903 /* APIkeys.swift in Sources */,
+				CCAF02FD272734EF0075A6BB /* AboutViewController.swift in Sources */,
 				CCB0391C2713CBBC00C827D2 /* AppDelegate.swift in Sources */,
+				CCAF02FB2727245F0075A6BB /* UIViewController+alert.swift in Sources */,
 				CCA90E8F27150F91002A7903 /* LocationDetailViewController.swift in Sources */,
 				CCB0391E2713CBBC00C827D2 /* SceneDelegate.swift in Sources */,
+				CCAF02F927265FE80075A6BB /* HourlyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
