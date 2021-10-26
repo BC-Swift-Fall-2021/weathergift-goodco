@@ -215,7 +215,7 @@ extension LocationDetailViewController: CLLocationManagerDelegate {
     }
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-        // TODO: Deal with error
+        print("ERROR: \(error.localizedDescription). Failed to get device location")
     }
 }
 
